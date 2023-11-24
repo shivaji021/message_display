@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Board</title>
+  <style>
+    #messageList {
+      list-style-type: none;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Message Board</h1>
+
+  <form id="messageForm">
+    <label for="messageInput">Enter Message:</label>
+    <input type="text" id="messageInput" />
+    <button type="button" onclick="addMessage()">Add Message</button>
+  </form>
+
+  <h2>Messages:</h2>
+  <ul id="messageList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
